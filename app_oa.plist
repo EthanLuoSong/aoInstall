@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   app.plist
+   OfficeWork
+
+   Created by mac on 2018/5/7.
+   Copyright (c) 2018年 hyls.com. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>display-image</string>
+                        <!--
+                         optional.indicates if icon needs shine effect applied.
+                         -->
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+                        <string>http://117.169.36.98:8000/v/css/vwt-small.png</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>http://117.169.36.98:8000/v/jx-oa.ipa</string>
+                    </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                    <key>bundle-identifier</key>
+                    <string>com.jx.chinamobile.tybg</string>
+                    <key>bundle-version</key>
+                    <string>1.0</string>
+                    <key>kind</key>
+                    <string>software</string>
+                    <key>subtitle</key>
+                    <string>Apple</string>
+                    <key>title</key>
+                    <string>jx-tybg</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
